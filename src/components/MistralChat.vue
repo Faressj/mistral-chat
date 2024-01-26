@@ -1,6 +1,6 @@
 <template>
   <div class="chat-mistral">
-    <h1 class="title">Chat avec l'API Mistral</h1>
+    <h1 class="title">Chat</h1>
     <form class="form" @submit.prevent="sendQuestion">
       <div class="data">
         <label class="apikeylabel" for="apiKey">API Key:</label>
